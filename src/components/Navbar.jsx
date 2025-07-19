@@ -21,9 +21,10 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed w-full py-5 top-0 left-0 z-50 transition duration-300 ${
-        isScrolled ? "bg-secondary text-white shadow-md" : "bg-transparent text-white"
+        isScrolled || isMobileMenuOpen ? "bg-secondary text-white shadow-md" : "bg-transparent text-white"
       }`}
     >
+
       <div className="container">
         <div className="flex justify-between items-center">
           {/* LOGO */}

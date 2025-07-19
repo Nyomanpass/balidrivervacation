@@ -18,11 +18,11 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-6 font-poppins">Quick Links</h4>
           <ul className="space-y-3">
-            <li><a href="#" className="hover:underline">Home</a></li>
-            <li><a href="#" className="hover:underline">Airports & Charter</a></li>
-            <li><a href="#" className="hover:underline">About</a></li>
-            <li><a href="#" className="hover:underline">Gallery</a></li>
-            <li><a href="#" className="hover:underline">Contact Us</a></li>
+            <li><a href="/" className="hover:underline">Home</a></li>
+            <li><a href="/airport" className="hover:underline">Airports & Charter</a></li>
+            <li><a href="/about" className="hover:underline">About</a></li>
+            <li><a href="/gallery" className="hover:underline">Gallery</a></li>
+            <li><a href="/contact" className="hover:underline">Contact Us</a></li>
           </ul>
         </div>
 
