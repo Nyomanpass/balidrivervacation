@@ -8,16 +8,18 @@ const About = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative w-full h-[40vh] flex items-center justify-center">
+      <section className="relative w-full h-[200px] md:h-[40vh] flex items-center justify-center">
         <img
           src="/banner4.jpg"
-          alt="About Bali Driver Vacation"
+          alt="Airports & Charter"
           className="absolute inset-0 w-full h-full object-cover object-center z-0"
         />
-        <div className="absolute inset-0 bg-black opacity-50" />
-        <div className="relative z-10 text-center text-white">
-          <h1 className="text-4xl md:text-5xl font-extrabold font-montserrat">About Us</h1>
+        <div className="relative md:pt-0 pt-10 z-10 text-center text-white">
+          <h1 className="text-3xl md:text-5xl font-extrabold font-montserrat">
+            About Us
+          </h1>
         </div>
+        <div className="absolute inset-0 bg-black opacity-40" />
       </section>
 
       {/* About Content */}

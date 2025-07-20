@@ -6,47 +6,47 @@ const charterServices = [
   {
     title: "Half day charter 7 seater 5 hours",
     price: "$28,76",
-    image: "/halfday.png",
+    image: "/halfday.webp",
   },
   {
     title: "Fullday charter 7 seater car 10 hours",
     price: "$44,74",
-    image: "/fullday.png",
+    image: "/fullday.webp",
   },
   {
     title: "Airport to Kuta area",
     price: "$12,79",
-    image: "/kuta.png",
+    image: "/kuta.webp",
   },
   {
     title: "Airport to Seminyak area",
     price: "$15,98",
-    image: "/seminyak.png",
+    image: "/seminyak.webp",
   },
   {
     title: "Airport to Canggu area",
     price: "$19,18",
-    image: "/canggu.png",
+    image: "/canggu.webp",
   },
   {
     title: "Airport to Ubud area",
     price: "$19,18",
-    image: "/ubud.png",
+    image: "/ubud.webp",
   },
   {
     title: "Airport to Candidasa area",
     price: "$31,97",
-    image: "/candidasa.png",
+    image: "/candidasa.webp",
   },
   {
     title: "Airport to Amed area",
     price: "$41,56",
-    image: "/amed.png",
+    image: "/amed.webp",
   },
   {
     title: "Airport to Lovina area",
     price: "$41,56",
-    image: "/lovina.png",
+    image: "/lovina.webp",
   },
 ];
 
@@ -57,14 +57,14 @@ const AirportsCharter = () => {
       <Navbar />
 
       {/* Hero Banner */}
-      <section className="relative w-full h-[40vh] flex items-center justify-center">
+      <section className="relative w-full h-[200px] md:h-[40vh] flex items-center justify-center">
         <img
           src="/banner4.jpg"
           alt="Airports & Charter"
           className="absolute inset-0 w-full h-full object-cover object-center z-0"
         />
-        <div className="relative z-10 text-center text-white">
-          <h1 className="text-4xl md:text-5xl font-extrabold font-montserrat">
+        <div className="relative. md:pt-0 pt-10 z-10 text-center text-white">
+          <h1 className="text-3xl md:text-5xl font-extrabold font-montserrat">
             Airports & Charter
           </h1>
         </div>

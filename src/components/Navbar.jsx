@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* LOGO */}
           <div className="flex-shrink-0">
-            <img src="/logodua.png" alt="Logo" className="h-14 md:h-20 object-contain" />
+            <img src="/logodua.png" alt="Logo" className="h-12 md:h-20 object-contain" />
           </div>
 
           {/* DESKTOP LINKS */}

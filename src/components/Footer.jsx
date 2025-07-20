@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/logo.png"; // pastikan path-nya sesuai struktur proyekmu
+import logo from "/logodua.png"; // pastikan path-nya sesuai struktur proyekmu
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-20">
         {/* Logo & Short Description */}
         <div>
-          <img src={logo} alt="Logo" className="h-28 mb-6" />
+          <img src={logo} alt="Logo" className="h-20 mb-6" />
           <p className="text-sm leading-relaxed font-poppins">
             Make your holiday to Bali more memorable with Bali Driver Vacation.
             Discover comfort, safety, and local stories on every trip.

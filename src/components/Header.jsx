@@ -6,22 +6,22 @@ export default function Header() {
   {
     title: "Half day charter 7 seater 5 hours",
     price: "$28,76",
-    image: "/halfday.png",
+    image: "/halfday.webp",
   },
   {
     title: "Fullday charter 7 seater car 10 hours",
     price: "$44,74",
-    image: "/fullday.png",
+    image: "/fullday.webp",
   },
   {
     title: "Airport to Kuta area",
     price: "$12,79",
-    image: "/kuta.png",
+    image: "/kuta.webp",
   },
   {
     title: "Airport to Seminyak area",
     price: "$15,98",
-    image: "/seminyak.png",
+    image: "/seminyak.webp",
   },
 ];
 
@@ -30,7 +30,7 @@ export default function Header() {
       {/* HERO SECTION */}
       <section className="relative w-full min-h-screen">
         <img
-          src="/hometravel.jpg"
+          src="/hometravelbaru.webp"
           alt="Bali Gate"
           className="absolute inset-0 w-full h-full object-cover object-center z-0"
         />
