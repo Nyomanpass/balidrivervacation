@@ -31,8 +31,8 @@ export default function Footer() {
           <h4 className="text-lg font-semibold mb-6 font-poppins">Contact</h4>
           <ul className="space-y-3 text-sm">
             <li>📍 Bali, Indonesia</li>
-            <li>📞 +62 812-3456-7890</li>
-            <li>✉️ info@balidrivervacation.com</li>
+            <li>📞 +62 878-4380-3487</li>
+            <li>✉️ balidrivervacation@gmail.com</li>
           </ul>
         </div>
 
@@ -46,7 +46,9 @@ export default function Footer() {
             <a href="#" className="hover:text-[#FFCA00]">
               <i className="ri-instagram-fill text-2xl"></i>
             </a>
-            <a href="#" className="hover:text-[#FFCA00]">
+            <a 
+              href="https://wa.me/6287843803487?text=Hi%2C%20I%27m%20interested%20in%20your%20Bali%20Driver%20Vacation%20services.%20Could%20you%20please%20provide%20more%20information%3F" target="_blank"
+              className="hover:text-[#FFCA00]">
               <i className="ri-whatsapp-fill text-2xl"></i>
             </a>
           </div>

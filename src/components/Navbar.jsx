@@ -34,9 +34,10 @@ export default function Navbar() {
 
           {/* DESKTOP LINKS */}
           <div className="hidden md:flex space-x-8 mx-8 font-poppins">
-            <a href="/" className="font-medium underline">Home</a>
+            <a href="/" className="font-medium">Home</a>
             <a href="/airport" className="hover:underline">Airports & Charter</a>
             <a href="/about" className="hover:underline">About</a>
+            <a href="/packagetrip" className="hover:underline">Package Trip</a>
             <a href="/gallery" className="hover:underline">Gallery</a>
             <a href="/contact" className="hover:underline">Contact Us</a>
           </div>
@@ -44,7 +45,7 @@ export default function Navbar() {
           {/* DESKTOP BUTTON */}
           <div className="hidden md:block">
             <a
-              href="#"
+               href="https://wa.me/6287843803487?text=Hi%2C%20I%27m%20interested%20in%20your%20Bali%20Driver%20Vacation%20services.%20Could%20you%20please%20provide%20more%20information%3F" target="_blank"
               className="bg-[#FFCA00] text-[#1B3C53] font-poppins font-semibold px-4 py-2 rounded border border-[#FFCA00] hover:bg-primary transition"
             >
               Contact Now
@@ -67,10 +68,11 @@ export default function Navbar() {
           <a href="/" className="block font-semibold">Home</a>
           <a href="/airport" className="block">Airports & Charter</a>
           <a href="/about" className="block">About</a>
+          <a href="/packagetrip" className="block">Package Trip</a>
           <a href="/gallery" className="block">Gallery</a>
           <a href="/contact" className="block">Contact Us</a>
           <a
-            href="#"
+            href="https://wa.me/6287843803487?text=Hi%2C%20I%27m%20interested%20in%20your%20Bali%20Driver%20Vacation%20services.%20Could%20you%20please%20provide%20more%20information%3F" target="_blank"
             className="block w-full text-center bg-[#FFCA00] text-[#1B3C53] font-semibold px-4 py-3 rounded border border-[#FFCA00]"
           >
             Contact Now

@@ -109,15 +109,15 @@ export default function Contact() {
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold">Phone</h4>
-                <p>+62 857-3882-4131</p>
+                <p>+62 878-4380-3487</p>
               </div>
               <div>
                 <h4 className="font-semibold">Email</h4>
-                <p>hello@balidrivervacation.com</p>
+                <p>balidrivervacation@gmail.com</p>
               </div>
               <div>
                 <h4 className="font-semibold">Address</h4>
-                <p>Jl. Raya Seminyak No.123, Kuta, Bali</p>
+                <p>Jl. Danau Tondano No.50, Sanur, Denpasar Selatan, Kota Denpasar, Bali 80227</p>
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ export default function CallToAction() {
           </p>
         </div>
         <a
-          href="#"
+          href="https://wa.me/6287843803487?text=Hi%2C%20I%27m%20interested%20in%20your%20Bali%20Driver%20Vacation%20services.%20Could%20you%20please%20provide%20more%20information%3F" target="_blank"
           className="inline-table bg-white text-[#1B3C53] font-bold font-mosserrat px-6 py-3 rounded hover:bg-[#FFCA00] hover:text-black transition"
         >
           Booking Now
